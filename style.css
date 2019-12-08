@@ -4,3 +4,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+.container {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1em;
+}
+
+.palette-item {
+  
+}
+
+.red {
+  background: hsl(0,100%,35%);
+  color: white;
+}
